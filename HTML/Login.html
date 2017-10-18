@@ -6,9 +6,15 @@
     <body>
         <h2>Please enter Username and password</h2>
         <form>
-            <input name="Username" type="text" placeholder="Username">
-            <input name="Password" type="password" placeholder="Password">
+            <label for="Username">Username</label>
+            <input id="Username" name="Username" type="text" placeholder="Username" required>
+            <label for="Password">Password</label>
+            <input id="Password" name="Password" type="password" placeholder="Password" required>
             <input type="submit">
+            <p>
+                <label for="Remember">Remember me</label>
+            <input id="Remember" name="Remember" type="radio">
+            </p>
         </form>
         
     </body>
