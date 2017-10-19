@@ -1,12 +1,16 @@
+body {
+    background: rgb(1, 102, 1);
+}
+
 #Splash-txt h1 {
     font-size: 60px;
     font-weight: bold;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 #Splash-txt h2 {
     font-size: 45;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 #Splash-txt {
@@ -15,12 +19,88 @@
     width: 100%;
     padding-top: 70px;
     padding-bottom: 20px;
-    
 }
 
 #Home-splash {
     width: 100%;
     height: 400px;
     background: url(IMAGES/splash.jpg);
-    background-size: 100% 500px;
+    background-size: 100% auto;
+}
+
+.resize {
+    height: 200px;
+    width: 200px;
+}
+
+
+.text {
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+#search {
+    text-align: center;
+}
+
+#upload {
+    margin: 50px;
+}
+
+#download {
+    margin: 50px;
+}
+
+#navicon {
+    width: 50px;
+    height: 50px;
+}
+
+.menu
+{
+background-color: rgb(0, 136, 122);
+border-bottom: 4px solid rgb(1, 83, 10);
+width:100%;
+height: auto;
+padding: 0 10px;
+position: fixed;
+margin: 0px;
+z-index: 1;
+opacity: 0.9;
+}
+
+.menu  .navbar-nav > .active > a
+{
+background-color : rgb(4, 163, 237);
+color: white;
+font-weight: bold;
+}
+
+.menu  .navbar-nav >  li >  a
+{
+font-size: 13px;
+color: white;
+padding: 10px 35px;
+
+}
+.menu  .navbar-nav >  li >  a:hover
+{
+background-color: rgb(4, 163, 237);
+}
+
+.navbar-header > a
+{
+font-family: 'Ubuntu Condensed', sans-serif;
+padding: 0px;
+margin: 0px;
+text-decoration: none;
+color: white;
+font-size: 25px;
+padding: 5px 30px;
+}
+.navbar-header > a:hover
+{
+text-decoration: none;
+color: rgb(4, 163, 237);
 }

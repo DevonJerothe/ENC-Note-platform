@@ -3,8 +3,24 @@
     <head>
         <title>ENC Notes</title>
         <link rel="stylesheet" type="text/css" href="CSS/Home.css">
+        <link rel="stylesheet" type="text/css" href="CSS/css/bootstrap.min.css">
     </head>
     <body>
+        <header>
+            <div class="menu">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a href="#">ENC NOTES</a>
+                    </div>
+                    <div>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#" ><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
         <div id="Home-splash">
            <div id="Splash-txt">
                 <h1>Welcome to ENC Notes</h1>
@@ -12,20 +28,39 @@
                 <div id="Search-bar">
                     <form>
                         <label for="Search">
-                             <input type="text" name="Search" id="Search" autocomplete="off" spellcheck="false" placeholder="Search by class, CRN, or professor" style="width: 250px;">
+                             <input type="text" name="Search" class="form-control" id="search" placeholder="Search by class, CRN, or professor" style="width: 400px">
                         </label>
                     </form>
                 </div>
            </div>
         </div>
-        <div id="Upload-notes">
-            <h2>Upload and help your peers</h2>
-            <p>Students all around the country miss class for unexpected reasons. Many of the time these reasons are unavoidable. Why should students suffer and be left behind in these situations. By uploading your notes for fellow classmates, you help spread education give the students a chance to get back on track.</p>
-        </div>
+        <div class="container-fluid" id="upload">
+          <div class="jumbotron">
+            <h2 style="text-align: center">Upload and help your peers</h2>
+            <div class="row">
+                <div class="col-md-2">
+                    <img class="resize" src="CSS/IMAGES/upload.png">
+                </div>
+                <div class="col-md-8">
+                    <p class="text">Students all around the country miss class for unexpected reasons. Many of the time these reasons are unavoidable. Why should students suffer and be left behind in these situations. By uploading your notes for fellow classmates, you help spread education give the students a chance to get back on track.</p>
+                </div>
 
-        <div id="Veiw-notes">
-            <h2>Veiw fellow peers notes</h2>
-            <p>Many times you will see yourself struggling to find notes for a missed lecture. Some professors provide these notes online however, many do not. Stop finding yourself in this predicament. Search through hundreds of student uploaded notes for all of your classes. Just search to start. </p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="container-fluid" id="download">
+            <div class="jumbotron">
+                <h2 style="text-align: center">Veiw fellow peers notes</h2>
+                <div class="row">
+                    <div class="col-md-2">
+                        <img class="resize" src="CSS/IMAGES/download.png">
+                    </div>
+                    <div class="col-md-8">
+                        <p class="text">Many times you will see yourself struggling to find notes for a missed lecture. Some professors provide these notes online however, many do not. Stop finding yourself in this predicament. Search through hundreds of student uploaded notes for all of your classes. Just search to start. </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 
