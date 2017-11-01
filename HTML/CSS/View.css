@@ -1,14 +1,24 @@
 #pdfJum {
     width: 100%;
     align-content: center;
-    margin-top: 20px;
-    height: 600px;
+    margin-top: 10px;
+    height: 850px;
 
 }
 
 #pdfCon {
-    height: 700px;
+    height: 850px;
     margin-left: 20px;
+}
+
+.view {
+    width: 100%;
+    height: 100%;
+}
+
+#pdfCon  h3 {
+
+    text-align: center;
 }
 
 .menu
