@@ -1,0 +1,67 @@
+.menu
+{
+background-color: rgb(0, 136, 122);
+border-bottom: 4px solid rgb(1, 83, 10);
+width:100%;
+height: auto;
+position: fixed;
+margin: 0px;
+z-index: 1;
+opacity: 0.9;
+}
+
+.menu  .navbar-nav > .active > a
+{
+background-color : rgb(4, 163, 237);
+color: rgb(4, 163, 237);
+font-weight: bold;
+}
+
+.menu  .navbar-nav >  li >  a
+{
+font-size: 13px;
+color: white;
+padding: 10px 35px;
+
+}
+.menu  .navbar-nav >  li >  a:hover
+{
+background-color: rgb(4, 163, 237);
+}
+
+.navbar-header > a
+{
+font-family: 'Ubuntu Condensed', sans-serif;
+padding: 0px;
+margin: 0px;
+text-decoration: none;
+color: white;
+font-size: 25px;
+padding: 5px 30px;
+}
+
+.navbar-header > a:hover
+{
+text-decoration: none;
+color: rgb(4, 163, 237);
+}
+
+body {
+    background: url(IMAGES/splash.jpg)
+}
+
+#FUCKINGWORK {
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+   
+}
+
+#box {
+    margin-top: 125px;
+
+}
+
+#inputs {
+    width: 100%;
+}
