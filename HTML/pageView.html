@@ -25,73 +25,158 @@
             </header>
         </div>
         
-        <div class="container col-md-4" id="pdfCon" style="margin-top: 50px">
+        <div class="container-fluid" id="contain-box">
             
-            <div class="panel panel-success" id="pdfJum">
-                <div class="panel heading"><h4>Dome Architecture</h4></div>
-                <iframe src="PDF/Dome.pdf" frameborder="0" class="view"></iframe>
-            
-            </div>
-        
-        </div>
-
-        <div class="container col-md-7" id="account" style="margin-top: 70px">
-                <div class="row">
-                    <div class="col-md-offset-2 col-md-8 col-lg-offset-3 col-lg-6">
-                     <div class="well profile">
-                        <div class="col-sm-12">
-                            <div class="col-xs-12 col-sm-8">
-                                <h2>Jhon Doe</h2>
-                                <p><strong>About: </strong> Studying Architecture at FGCU </p>
-                                <p><strong>Classes: </strong> Architecture 101 </p>
-                                <p><strong>Skills: </strong>
-                                    <span class="tags">Survey</span> 
-                                    <span class="tags">Building</span>
-                                    <span class="tags">Legos</span>
-                                    <span class="tags">Eating</span>
-                                </p>
-                            </div>             
-                            <div class="col-xs-12 col-sm-4 text-center">
-                                <figure>
-                                    <img src="CSS/IMAGES/profile.png" alt="" class="img-circle img-responsive">
-                                </figure>
-                            </div>
-                        </div>            
-                        <div class="col-xs-12 divider text-center">
-                            <div class="col-xs-12 col-sm-4 emphasis">
-                                <h2><strong> 150 </strong></h2>           
-                                <p><small>Followers</small></p>
-                                <button class="btn btn-success btn-block"><span class="fa fa-plus-circle"></span> Follow </button>
-                            </div>
-                            <div class="col-xs-12 col-sm-4 emphasis">
-                                <h2><strong>7</strong></h2>                    
-                                <p><small>Following</small></p>
-                                <button class="btn btn-info btn-block"><span class="fa fa-user"></span> View Profile </button>
-                            </div>
-                            <div class="col-xs-12 col-sm-4 emphasis">
-                                <h2><strong>20</strong></h2>                    
-                                <p><small>Uploads</small></p>
-                                <button type="button" class="btn btn-primary btn-block"> Review</button>
+            <div class="jumbotron" id="main-box">
+                <div class="row" id="wrapper">
+                    <div id="PDF">
+                        <div class="panel heading"><h4>Dome Architecture</h4></div>
+                        <iframe src="PDF/Dome.pdf" frameborder="0" class="view"></iframe>
+                    </div>
+                    <div id="user">
+                        <div class="well profile">
+                            <div id="txt">
+                                <img src="CSS/IMAGES/profile.png" alt="" class="img-circle img-responsive" id="Img-pos">
+                                <h4>Jhon Doe</h4>
+                                <div>Doc Rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star-empty"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span></span></div>
+                                <h5>Upload Date: 12/03/2017</h5>
+                                <h6>CRN: 3011A</h6>
+                                <h5>Description:</h5>
+                                <p>A very brief overview and study on Dome archetecure done for Archetecure 101. </p>
+                                <h6>Downloads/Views: 134/344</h6>
                             </div>
                         </div>
-                     </div>                 
-                    </div>
-                </div>
-
-                <div class="container pb-cmnt-container col-md-offset-2 col-md-8 col-lg-offset-3 col-lg-6">
-                    <div class="row">
-                        <div >
-                            <div class="panel panel-info">
+                        <div class="well"> 
+                            <div class="panel panel-info" id="txtcon"  >
                                 <div class="panel-body">
-                                    <textarea placeholder="Write your comment here!" class="pb-cmnt-textarea"></textarea>
+                                    <textarea placeholder="Write your comment here!" class="pb-cmnt-textarea" id="txtbox"></textarea>
                                     <form class="form-inline">    
-                                        <button class="btn btn-primary pull-right btn-block" type="button">Comment</button>
+                                        <button class="btn btn-primary pull-right btn-block" id="comment" type="button">Comment</button>
                                     </form>
                                 </div>
                             </div>
+                        
+                        
                         </div>
                     </div>
+                    
                 </div>
-        </div> 
+            </div>
+            
+            <div class="jumbotron">
+                <div class="row">
+                    <div id="commentcenter">
+                    <h2 class="page-header">Comments</h2>
+                        <section class="comment-list">
+                        <!-- First Comment -->
+                        <article class="row">
+                            <div class="col-md-2 col-sm-2 hidden-xs">
+                            <figure class="thumbnail">
+                                <img class="img-responsive" src="http://www.keita-gaming.com/assets/profile/default-avatar-c5d8ec086224cb6fc4e395f4ba3018c2.jpg" />
+                                <figcaption class="text-center">Devon Jerothe</figcaption>
+                            </figure>
+                            </div>
+                            <div class="col-md-10 col-sm-10">
+                            <div class="panel panel-default arrow left">
+                                <div class="panel-body">
+                                <header class="text-left">
+                                    <div class="comment-user"><i class="fa fa-user"></i> Devon Jerothe</div>
+                                    <time class="comment-date" datetime="16-12-2014 01:05"><i class="fa fa-clock-o"></i> Dec 16, 2017</time>
+                                </header>
+                                <div class="comment-post">
+                                    <p>
+                                        Pretty good, however your spelling is horrible. 
+                                        
+                                    </p>
+                                </div>
+                                <p class="text-right"><a href="#" class="btn btn-default btn-sm"><i class="fa fa-reply"></i> reply</a></p>
+                                </div>
+                            </div>
+                            </div>
+                        </article>
+                        <!-- Second Comment Reply -->
+                        <article class="row">
+                            <div class="col-md-2 col-sm-2 col-md-offset-1 col-sm-offset-0 hidden-xs">
+                            <figure class="thumbnail">
+                                <img class="img-responsive" src="http://www.keita-gaming.com/assets/profile/default-avatar-c5d8ec086224cb6fc4e395f4ba3018c2.jpg" />
+                                <figcaption class="text-center">Tony G</figcaption>
+                            </figure>
+                            </div>
+                            <div class="col-md-9 col-sm-9">
+                            <div class="panel panel-default arrow left">
+                                <div class="panel-heading right">Reply</div>
+                                <div class="panel-body">
+                                <header class="text-left">
+                                    <div class="comment-user"><i class="fa fa-user"></i> Tony G</div>
+                                    <time class="comment-date" datetime="16-12-2014 01:05"><i class="fa fa-clock-o"></i> Dec 16, 2017</time>
+                                </header>
+                                <div class="comment-post">
+                                    <p>
+                                        Agreed, needs some work. However, the infomation was there and helped me out a lot. Thanks for the upload.
+                                    </p>
+                                </div>
+                                <p class="text-right"><a href="#" class="btn btn-default btn-sm"><i class="fa fa-reply"></i> reply</a></p>
+                                </div>
+                            </div>
+                            </div>
+                        </article>
+                        <!-- Third Comment -->
+                        <article class="row">
+                            <div class="col-md-10 col-sm-10">
+                            <div class="panel panel-default arrow right">
+                                <div class="panel-body">
+                                <header class="text-right">
+                                    <div class="comment-user"><i class="fa fa-user"></i> ImaFail</div>
+                                    <time class="comment-date" datetime="16-12-2014 01:05"><i class="fa fa-clock-o"></i> Dec 16, 2017</time>
+                                </header>
+                                <div class="comment-post">
+                                    <p>
+                                        Thanks Jhon for the upload. Check out my review on your profile.
+                                    </p>
+                                </div>
+                                <p class="text-right"><a href="#" class="btn btn-default btn-sm"><i class="fa fa-reply"></i> reply</a></p>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col-md-2 col-sm-2 hidden-xs">
+                            <figure class="thumbnail">
+                                <img class="img-responsive" src="http://www.keita-gaming.com/assets/profile/default-avatar-c5d8ec086224cb6fc4e395f4ba3018c2.jpg" />
+                                <figcaption class="text-center">ImaFail</figcaption>
+                            </figure>
+                            </div>
+                        </article>
+                        <!-- Fourth Comment -->
+                        <article class="row">
+                            <div class="col-md-2 col-sm-2 hidden-xs">
+                            <figure class="thumbnail">
+                                <img class="img-responsive" src="http://www.keita-gaming.com/assets/profile/default-avatar-c5d8ec086224cb6fc4e395f4ba3018c2.jpg" />
+                                <figcaption class="text-center">BillNye</figcaption>
+                            </figure>
+                            </div>
+                            <div class="col-md-10 col-sm-10 col-xs-12">
+                            <div class="panel panel-default arrow left">
+                                <div class="panel-body">
+                                <header class="text-left">
+                                    <div class="comment-user"><i class="fa fa-user"></i> BillNye</div>
+                                    <time class="comment-date" datetime="16-12-2014 01:05"><i class="fa fa-clock-o"></i> Dec 16, 2017</time>
+                                </header>
+                                <div class="comment-post">
+                                    <p>
+                                        Been looking for this forever thank you. 
+                                    </p>
+                                </div>
+                                <p class="text-right"><a href="#" class="btn btn-default btn-sm"><i class="fa fa-reply"></i> reply</a></p>
+                                </div>
+                            </div>
+                            </div>
+                        </article>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+     
     </body>
 </html>
