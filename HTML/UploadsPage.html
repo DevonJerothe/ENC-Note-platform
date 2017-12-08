@@ -1,68 +1,78 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>ENC Notes</title>
-        <link rel="stylesheet" type="text/css" href="CSS/Home.css">
+        <title>Account View</title>
         <link rel="stylesheet" type="text/css" href="CSS/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="CSS/UploadsPage.css">
+        <link rel="stylesheet" type="text/css" href="CSS/View.css">
     </head>
     <body>
         <header>
             <div class="menu">
                 <div class="container-fluid">
                     <div class="navbar-header">
-                        <a href="#">ENC NOTES</a>
+                        <a href="Home.html">ENC NOTES</a>
                     </div>
                     <div>
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="#" ><span class="glyphicon glyphicon-user"></span> placeholder</a></li>
-                            <li><a href="Login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </header>
-        <div id="Home-splash">
-           <div id="Splash-txt">
-                <h1>Welcome to ENC Notes</h1>
-                <h2>Lets get started!</h2>
-                <div id="Search-bar">
-                    <form class="navbar-form" role="search" action="pageView.html">
-                        <label for="Search">
-                             <input type="text" name="Search" class="form-control" id="search" placeholder="Search by class, CRN, or professor" style="width: 400px"> 
-                        </label>
-                        <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
-                    </form>
+        <div class="">
+        <div class="container-fluid" id="account">
+          <div class="jumbotron" id="account-box">
+                <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail imageResize">
+                    <img src="CSS/IMAGES/DomeIMG2.JPG" alt="...">
+                        <div class="caption">
+                            <h3><b>Dome Architecture</b></h3>
+                            <h5>These notes provide a brief history of dome architecture.</h5>
+                            <p><a href="pageView.html" class="btn btn-primary" role="button">View</a> 
+                               <a href="#" class="btn btn-default" role="button">Rate</a></p>
+                        </div>
+                    </div>
                 </div>
-           </div>
-        </div>
-        <div class="container-fluid" id="upload">
-          <div class="jumbotron">
-            <h2 style="text-align: center">Upload and help your peers</h2>
-            <div class="row">
-                <div class="col-md-2">
-                    <img class="resize" src="CSS/IMAGES/upload.png">
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                    <img src="..." alt="...">
+                        <div class="caption">
+                            <h3><b>Thumbnail label</b></h3>
+                            <h5>...</h5>
+                            <p><a href="#" class="btn btn-primary" role="button">View</a> 
+                               <a href="#" class="btn btn-default" role="button">Rate</a></p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-8">
-                    <p class="text">Students all around the country miss class for unexpected reasons. Many of the time these reasons are unavoidable. Why should students suffer and be left behind in these situations. By uploading your notes for fellow classmates, you help spread education give the students a chance to get back on track.</p>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                    <img src="..." alt="...">
+                        <div class="caption">
+                            <h3><b>Thumbnail label</b></h3>
+                            <h5>...</h5>
+                            <p><a href="#" class="btn btn-primary" role="button">View</a> 
+                               <a href="#" class="btn btn-default" role="button">Rate</a></p>
+                        </div>
+                    </div>
                 </div>
-
-            </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                    <img src="..." alt="...">
+                        <div class="caption">
+                            <h3><b>Thumbnail label</b></h3>
+                            <h5>...</h5>
+                            <p><a href="#" class="btn btn-primary" role="button">View</a> 
+                               <a href="#" class="btn btn-default" role="button">Rate</a></p>
+                        </div>
+                    </div>
+                </div>
+                </div>
           </div>
         </div>
-        
-        <div class="container-fluid" id="download">
-            <div class="jumbotron">
-                <h2 style="text-align: center">View fellow peers notes</h2>
-                <div class="row">
-                    <div class="col-md-2">
-                        <img class="resize" src="CSS/IMAGES/download.png">
-                    </div>
-                    <div class="col-md-8">
-                        <p class="text">Many times you will see yourself struggling to find notes for a missed lecture. Some professors provide these notes online however, many do not. Stop finding yourself in this predicament. Search through hundreds of student uploaded notes for all of your classes. Just search to start. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </div>         
         <footer>
             <div class="container">
               <div class="row">

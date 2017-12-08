@@ -1,57 +1,25 @@
-
-#Splash-txt h1 {
-    font-size: 60px;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
+html {
+    position:relative;
+    min-height:100%;
 }
-
-#Splash-txt h2 {
-    font-size: 45;
-    color: rgb(255, 255, 255);
-}
-
-#Splash-txt {
-    line-height: 0.5;
-    text-align: center;
-    width: 100%;
-    padding-top: 70px;
-    padding-bottom: 20px;
-}
-
-#Home-splash {
-    width: 100%;
-    height: 400px;
+body {
+    margin:0 0 300px;
+    padding-top: 1px;
+    font-size: 12px;
     background: url(IMAGES/splash.jpg);
-    background-size: 100% auto;
+ }
+
+footer{ 
+     width:100%;
+     position:absolute;
+     bottom:0;
+     left:0;
+     background: rgb(0, 136, 122);
+     padding:50px 0px;
 }
 
-.resize {
-    height: 200px;
-    width: 200px;
-}
-
-
-.text {
-    text-align: left;
-    padding-top: 20px;
-    padding-left: 100px;
-}
-
-#search {
-    text-align: center;
-}
-
-#upload {
-    margin: 50px;
-}
-
-#download {
-    margin: 50px;
-}
-
-#navicon {
-    width: 50px;
-    height: 50px;
+#account {
+    margin-top: 10%
 }
 
 .menu
@@ -101,11 +69,6 @@ padding: 5px 30px;
 {
 text-decoration: none;
 color: rgb(4, 163, 237);
-}
-
-footer{
-     background-color: rgb(0, 136, 122);
-     padding:50px 0px;
 }	       
 
 .logo{
@@ -146,5 +109,40 @@ footer{
     font-size:14px;
 }
 
+.container-body {
+	background:#000;
+	width:960px;
+	height:100%;
+	padding:10px 0px 10px;
+	float:left;
+}
 
+.searchtitle {
+    font-size:30px;
+    float:left;
+    color:#FFF;
+}
 
+.item{
+    width:300px !important;
+    background:#FFF;
+    float:left;
+    margin:0px 10px 10px 10px;
+}
+
+.searchimg {
+    width:100%;
+    height:300px; //this has to be set for image height or else define each image as a separate class
+    float:left;
+}
+
+.subitem {
+    width:100%;
+    height:60px;
+    color:#FFF;
+    background:#333;
+    float:left;
+    bottom:0;
+    font-size:18px;
+    padding:5px;
+}

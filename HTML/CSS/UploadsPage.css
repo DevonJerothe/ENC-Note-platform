@@ -1,57 +1,11 @@
-
-#Splash-txt h1 {
-    font-size: 60px;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
-}
-
-#Splash-txt h2 {
-    font-size: 45;
-    color: rgb(255, 255, 255);
-}
-
-#Splash-txt {
-    line-height: 0.5;
-    text-align: center;
-    width: 100%;
-    padding-top: 70px;
-    padding-bottom: 20px;
-}
-
-#Home-splash {
-    width: 100%;
-    height: 400px;
+body {
+    padding-top: 1px;
+    font-size: 12px;
     background: url(IMAGES/splash.jpg);
-    background-size: 100% auto;
-}
+ }
 
-.resize {
-    height: 200px;
-    width: 200px;
-}
-
-
-.text {
-    text-align: left;
-    padding-top: 20px;
-    padding-left: 100px;
-}
-
-#search {
-    text-align: center;
-}
-
-#upload {
-    margin: 50px;
-}
-
-#download {
-    margin: 50px;
-}
-
-#navicon {
-    width: 50px;
-    height: 50px;
+#account {
+    margin-top: 10%
 }
 
 .menu
@@ -104,6 +58,7 @@ color: rgb(4, 163, 237);
 }
 
 footer{
+     margin-top: 5%;
      background-color: rgb(0, 136, 122);
      padding:50px 0px;
 }	       
@@ -145,6 +100,3 @@ footer{
     margin-right: 10px;
     font-size:14px;
 }
-
-
-
