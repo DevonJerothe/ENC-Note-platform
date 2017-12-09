@@ -19,7 +19,9 @@ footer{
 }
 
 #account {
-    margin-top: 10%
+    width: 100%;
+    height: 900px;
+    
 }
 
 .menu
@@ -110,17 +112,15 @@ color: rgb(4, 163, 237);
 }
 
 .container-body {
-	background:#000;
+	background:#d9d9d9;
 	width:960px;
-	height:100%;
 	padding:10px 0px 10px;
 	float:left;
 }
 
-.searchtitle {
-    font-size:30px;
-    float:left;
-    color:#FFF;
+#seachresult {
+    margin-top: -10px
+ 
 }
 
 .item{
@@ -145,4 +145,19 @@ color: rgb(4, 163, 237);
     bottom:0;
     font-size:18px;
     padding:5px;
+}
+
+#contain{
+    text-align: center;
+    height: 100%;
+    margin: auto;
+    margin-top: 70px;
+    width: 1080px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+ 
+        
+        
 }
