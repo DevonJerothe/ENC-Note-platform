@@ -135,6 +135,11 @@ color: rgb(4, 163, 237);
     
 }
 
+#name {
+    font-size: 18px;
+    color: black;
+}
+
 .comment-list .row {
   margin-bottom: 0px;
 }

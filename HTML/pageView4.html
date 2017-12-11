@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Veiw notes</title>
+        <link rel="stylesheet" type="text/css" href="CSS/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="CSS/View.css">
+    </head>
+    
+    <body>
+        <div>
+            <header>
+                <div class="menu">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                        <a href="Home.html">ENC NOTES</a>
+                        </div>
+                        <div>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="#" ><span class="glyphicon glyphicon-user"></span> placeholder</a></li>
+                                <li><a href="Login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+        
+        <div class="container-fluid" id="contain-box">
+            
+            <div class="jumbotron" id="main-box">
+                <div class="row" id="wrapper">
+                    <div id="PDF">
+                        <div class="panel heading"><h4>PLTW Patents review</h4></div>
+                        <iframe src="PDF/Patents.pdf" frameborder="0" class="view"></iframe>
+                    </div>
+                    <div id="user">
+                        <div class="well profile">
+                            <div id="txt">
+                                <img src="CSS/IMAGES/profile.png" alt="" class="img-circle img-responsive" id="Img-pos">
+                                <a href="AccountView.html" id="name">Jhon Doe</a>
+                                <div>Doc Rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star-empty"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span></span></div>
+                                <h5>Upload Date: 12/05/2017</h5>
+                                <h6>CRN: PLTW</h6>
+                                <h5>Description:</h5>
+                                <p>Patent activity in class</p>
+                                <h6>Downloads/Views: 324/344</h6>
+                            </div>
+                        </div>
+                        <div class="well"> 
+                            <div class="panel panel-info" id="txtcon"  >
+                                <div class="panel-body">
+                                    <textarea placeholder="Write your comment here!" class="pb-cmnt-textarea" id="txtbox"></textarea>
+                                    <form class="form-inline">    
+                                        <button class="btn btn-primary pull-right btn-block" id="comment" type="button">Comment</button>
+                                    </form>
+                                </div>
+                            </div>
+                        
+                        
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="jumbotron">
+                <div class="row">
+                    <div id="commentcenter">
+                    <h2 class="page-header">Comments</h2>
+                        <section class="comment-list">
+                        <!-- First Comment -->
+                        <article class="row">
+                            <div class="col-md-2 col-sm-2 hidden-xs">
+                            <figure class="thumbnail">
+                                <img class="img-responsive" src="http://www.keita-gaming.com/assets/profile/default-avatar-c5d8ec086224cb6fc4e395f4ba3018c2.jpg" />
+                                <figcaption class="text-center">Devon Jerothe</figcaption>
+                            </figure>
+                            </div>
+                            <div class="col-md-10 col-sm-10">
+                            <div class="panel panel-default arrow left">
+                                <div class="panel-body">
+                                <header class="text-left">
+                                    <div class="comment-user"><i class="fa fa-user"></i> Devon Jerothe</div>
+                                    <time class="comment-date" datetime="16-12-2014 01:05"><i class="fa fa-clock-o"></i> Dec 16, 2017</time>
+                                </header>
+                                <div class="comment-post">
+                                    <p>
+                                        Pretty good, however your spelling is horrible. 
+                                        
+                                    </p>
+                                </div>
+                                <p class="text-right"><a href="#" class="btn btn-default btn-sm"><i class="fa fa-reply"></i> reply</a></p>
+                                </div>
+                            </div>
+                            </div>
+                        </article>
+                        <!-- Second Comment Reply -->
+                        <article class="row">
+                            <div class="col-md-2 col-sm-2 col-md-offset-1 col-sm-offset-0 hidden-xs">
+                            <figure class="thumbnail">
+                                <img class="img-responsive" src="http://www.keita-gaming.com/assets/profile/default-avatar-c5d8ec086224cb6fc4e395f4ba3018c2.jpg" />
+                                <figcaption class="text-center">Tony G</figcaption>
+                            </figure>
+                            </div>
+                            <div class="col-md-9 col-sm-9">
+                            <div class="panel panel-default arrow left">
+                                <div class="panel-heading right">Reply</div>
+                                <div class="panel-body">
+                                <header class="text-left">
+                                    <div class="comment-user"><i class="fa fa-user"></i> Tony G</div>
+                                    <time class="comment-date" datetime="16-12-2014 01:05"><i class="fa fa-clock-o"></i> Dec 16, 2017</time>
+                                </header>
+                                <div class="comment-post">
+                                    <p>
+                                        Agreed, needs some work. However, the infomation was there and helped me out a lot. Thanks for the upload.
+                                    </p>
+                                </div>
+                                <p class="text-right"><a href="#" class="btn btn-default btn-sm"><i class="fa fa-reply"></i> reply</a></p>
+                                </div>
+                            </div>
+                            </div>
+                        </article>
+                        <!-- Third Comment -->
+                        <article class="row">
+                            <div class="col-md-10 col-sm-10">
+                            <div class="panel panel-default arrow right">
+                                <div class="panel-body">
+                                <header class="text-right">
+                                    <div class="comment-user"><i class="fa fa-user"></i> ImaFail</div>
+                                    <time class="comment-date" datetime="16-12-2014 01:05"><i class="fa fa-clock-o"></i> Dec 16, 2017</time>
+                                </header>
+                                <div class="comment-post">
+                                    <p>
+                                        Thanks Jhon for the upload. Check out my review on your profile.
+                                    </p>
+                                </div>
+                                <p class="text-right"><a href="#" class="btn btn-default btn-sm"><i class="fa fa-reply"></i> reply</a></p>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col-md-2 col-sm-2 hidden-xs">
+                            <figure class="thumbnail">
+                                <img class="img-responsive" src="http://www.keita-gaming.com/assets/profile/default-avatar-c5d8ec086224cb6fc4e395f4ba3018c2.jpg" />
+                                <figcaption class="text-center">ImaFail</figcaption>
+                            </figure>
+                            </div>
+                        </article>
+                        <!-- Fourth Comment -->
+                        <article class="row">
+                            <div class="col-md-2 col-sm-2 hidden-xs">
+                            <figure class="thumbnail">
+                                <img class="img-responsive" src="http://www.keita-gaming.com/assets/profile/default-avatar-c5d8ec086224cb6fc4e395f4ba3018c2.jpg" />
+                                <figcaption class="text-center">BillNye</figcaption>
+                            </figure>
+                            </div>
+                            <div class="col-md-10 col-sm-10 col-xs-12">
+                            <div class="panel panel-default arrow left">
+                                <div class="panel-body">
+                                <header class="text-left">
+                                    <div class="comment-user"><i class="fa fa-user"></i> BillNye</div>
+                                    <time class="comment-date" datetime="16-12-2014 01:05"><i class="fa fa-clock-o"></i> Dec 16, 2017</time>
+                                </header>
+                                <div class="comment-post">
+                                    <p>
+                                        Been looking for this forever thank you. 
+                                    </p>
+                                </div>
+                                <p class="text-right"><a href="#" class="btn btn-default btn-sm"><i class="fa fa-reply"></i> reply</a></p>
+                                </div>
+                            </div>
+                            </div>
+                        </article>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+     
+    </body>
+</html>
