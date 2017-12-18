@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Veiw notes</title>
+        <link rel="stylesheet" type="text/css" href="CSS/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="CSS/View.css">
+    </head>
+    
+    <body>
+        <div>
+            <header>
+                <div class="menu">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                        <a href="Home.html">YOTES</a>
+                        </div>
+                        <div>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="#" ><span class="glyphicon glyphicon-user"></span> placeholder</a></li>
+                                <li><a href="Login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+        
+        <div class="container-fluid" id="contain-box">
+            
+            <div class="jumbotron" id="main-box">
+                <div class="row" id="wrapper">
+                    <div id="PDF">
+                        <div class="panel heading"><h4>PLTW Sheet</h4></div>
+                        <iframe src="PDF/Sheet.pdf" frameborder="0" class="view"></iframe>
+                    </div>
+                    <div id="user">
+                        <div class="well profile">
+                            <div id="txt">
+                                <img src="CSS/IMAGES/profile.png" alt="" class="img-circle img-responsive" id="Img-pos">
+                                <a href="AccountView.html" id="name">John Doe</a>
+                                <div>Doc Rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star-empty"></span><span data-value="1" class="glyphicon glyphicon-star-empty"></span><span data-value="2" class="glyphicon glyphicon-star-empty"></span><span data-value="3" class="glyphicon glyphicon-star-empty"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span></span></div>
+                                <h5>Upload Date: 12/18/2017</h5>
+                                <h6>CRN: PLTW</h6>
+                                <h5>Description:</h5>
+                                <p>PTLW Study Sheet</p>
+                                <h6>Downloads/Views: 0/0</h6>
+                            </div>
+                        </div>
+                        <div class="well"> 
+                            <div class="panel panel-info" id="txtcon"  >
+                                <div class="panel-body">
+                                    <textarea placeholder="Write your comment here!" class="pb-cmnt-textarea" id="txtbox"></textarea>
+                                    <form class="form-inline">    
+                                        <button class="btn btn-primary pull-right btn-block" id="comment" type="button">Comment</button>
+                                    </form>
+                                </div>
+                            </div>
+                        
+                        
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="jumbotron">
+                <div class="row">
+                    <div id="commentcenter">
+                    <h2 class="page-header">Comments</h2>
+                        <section class="comment-list">
+                        <!-- First Comment -->
+                        <article class="row">
+                            <div class="col-md-2 col-sm-2 hidden-xs">
+                            <figure class="thumbnail">
+                                <img class="img-responsive" src="http://www.keita-gaming.com/assets/profile/default-avatar-c5d8ec086224cb6fc4e395f4ba3018c2.jpg" />
+                                <figcaption class="text-center"></figcaption>
+                            </figure>
+                            </div>
+                            <div class="col-md-10 col-sm-10">
+                            <div class="panel panel-default arrow left">
+                                <div class="panel-body">
+                                <header class="text-left">
+                                </header>
+                                <div class="comment-post">
+                                    <p> No Comments </p>
+                                </div>
+                                
+                                </div>
+                            </div>
+                            </div>
+                        </article>
+                        
+                        </section>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+     
+    </body>
+</html>
